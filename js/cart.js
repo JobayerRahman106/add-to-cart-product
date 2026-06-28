@@ -1,7 +1,7 @@
 const handleAddProducts = ()=> {
     const productEl = document.getElementById("product")
     const quantityEl = document.getElementById("quantity")
-    const product = productEl.value
+    const product = (productEl.value).toLowerCase()
     const quantity = parseInt(quantityEl.value)
 
     addToCart(product,quantity)
