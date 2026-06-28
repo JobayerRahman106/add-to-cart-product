@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <h2>🛒 Shopping Cart</h2>
+
+        <input id="product" type="text" placeholder="Enter Product Name">
+        <input id="quantity" type="number" placeholder="Enter Quantity"> <br> <br>
+        <button onclick="handleAddProducts()"> Add to Cart</button>
+
+        <div class="products">
+            <h3>Added Products</h3>
+            <ul id="products-container"></ul>
+        </div>
+
+    </div>
+    <script src="./js/cart.js"></script>
+    
+</body>
+</html>
